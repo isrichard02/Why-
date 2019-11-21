@@ -54,4 +54,10 @@ def Intersection(x,y):
         if i in y:
             z.append(i)
     return(z)
+def NotIn(x,y):
+    z = []
+    for i in x:
+        if i not in y:
+            z.append(i)
+    return(z)
 
