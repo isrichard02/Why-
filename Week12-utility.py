@@ -19,3 +19,15 @@ def LoadFile(x):
                     temp +=j
             re.append(temp)            
     return(re)
+
+def UpdateString(x,y,z):
+    new_word = ''
+    for i in range(len(x)):
+        if i ==z:
+            new_word += y
+        else:
+            new_word += x[i]
+    return(new_word)
+
+
+
