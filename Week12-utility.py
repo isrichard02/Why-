@@ -48,5 +48,10 @@ def Union(x,y):
         if i not in y:
             y.append(i)
     return(y)
-
+def Intersection(x,y):
+    z = []
+    for i in x:
+        if i in y:
+            z.append(i)
+    return(z)
 
