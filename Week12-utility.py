@@ -43,6 +43,10 @@ def ScoreFinder(x,y,z):
         if i.upper() == z.upper():
             who = index
     return(z, 'got a score of', y[who])
-
+def Union(x,y):
+    for i in x:
+        if i not in y:
+            y.append(i)
+    return(y)
 
 
