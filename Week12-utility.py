@@ -28,6 +28,14 @@ def UpdateString(x,y,z):
         else:
             new_word += x[i]
     return(new_word)
+def FindWordCount(x,y):
+    count = 0
+    for i in x:
+        k = i.split()
+        for j in k:
+            if (j.upper()) in (y.upper()):
+                if y.upper() in j.upper():
+                    count += 1
 
 
 
