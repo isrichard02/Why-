@@ -36,6 +36,13 @@ def FindWordCount(x,y):
             if (j.upper()) in (y.upper()):
                 if y.upper() in j.upper():
                     count += 1
+def ScoreFinder(x,y,z):
+    idex = 0
+    for i in x:
+        idex += 1
+        if i.upper() == z.upper():
+            who = index
+    return(z, 'got a score of', y[who])
 
 
 
